@@ -1,5 +1,8 @@
-![CF](https://i.imgur.com/7v5ASc8.png)  Lab 14: Managing State
-=======
+
+![CF](https://i.imgur.com/7v5ASc8.png)
+# 14-managing-state
+Let's look at how some middleware and Page.JS can do some state management of our blog!
+
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
 Let's circle back to our UI logic... You know, everything that sets up the page for interaction. Now we can use our new tools of routing, middleware, MVC separation, SQL, and resource rendering.
