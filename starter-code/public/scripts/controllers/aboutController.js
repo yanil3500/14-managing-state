@@ -8,8 +8,8 @@
     repos.requestRepos(repoView.index);
   };
 
-  // TODO: What value is in 'module'? What is the purpose of this line of code?
-  // Put your response in this comment...
+  // DONE: What value is in 'module'? What is the purpose of this line of code?
+  //Module currently has aboutController as one of its value. Module exposes aboutController to the rest of the application. 
   module.aboutController = aboutController;
-  
+
 })(window);
