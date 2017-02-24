@@ -10,8 +10,8 @@
     $('#new-form').on('change', newArticle.create);
   };
 
-// TODO: Where is this invoked? What values are passed in? Where does it interact elsewhere in the code?
-// Put your response in this comment...
+// DONE: Where is this invoked? What values are passed in? Where does it interact elsewhere in the code?
+// This is invoked in the newArticle.initNewArticlePage method and it interacts with the publish check box on the new.html, as soon as you "change" the state of the published check box this method fires and creates a new record
   newArticle.create = function() {
     $('#articles').empty();
     let formArticle = new Article({

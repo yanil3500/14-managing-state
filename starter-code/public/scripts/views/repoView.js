@@ -10,8 +10,8 @@
     $about.show().siblings().hide();
   };
 
-  // TODO: What is in 'render'? What values are passed in? Where does it interact elsewhere in the code?
-  // Put your response in this comment...
+  // DONE: What is in 'render'? What values are passed in? Where does it interact elsewhere in the code?
+  // When we compile the Handlbars template this render function is created that takes in any object and displays it as described in the template
   const render = Handlebars.compile($('#repo-template').text());
 
   repoView.index = function() {
